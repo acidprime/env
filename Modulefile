@@ -1,0 +1,8 @@
+name 'zack-env'
+version '0.0.1'
+source 'git://github.com/acidprime/env.git'
+author 'Zack Smith'
+license 'Apache'
+summary 'Puppet face for querying last used environment'
+description 'Query a nodes last environment via the yaml cache terminus'
+project_page 'http://github.com/acidprime/env'
