@@ -15,3 +15,10 @@ For a list of all nodes use '*'
 ```shell
 puppet node env '*'
 ```
+An example use would be monitoring students checking into the puppet master in the fundamentals class
+
+```shell
+while :; do clear; puppet node env "*" ; sleep 2; done
+# or if you have a newer version of watch
+watch  --color 'puppet node env "*"'
+```
