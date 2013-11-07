@@ -1,5 +1,6 @@
 # Simple yaml cache hack
-This is just an example of something I was curious about  
+This is a puppet face that will display a node or list of nodes last checked in environment.
+
 # Usage
 1. Install the module into your modulepath
 2. On puppet 2.7 and lower export your RUBYLIB to this folder
