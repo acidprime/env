@@ -19,6 +19,8 @@ An example use would be monitoring students checking into the puppet master in t
 
 ```shell
 while :; do clear; puppet node env '*' ; sleep 2; done
-# or if you have a newer version of watch
+```
+or if you have a newer version of watch
+```shell
 watch  --color 'puppet node env "*"'
 ```
